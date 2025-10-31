@@ -4,8 +4,14 @@
   need_reply: false
   auto_retry_time: 
   folder: 
-  answer: 
-  keyboard: 
+
+  <<ANSWER
+
+  ANSWER
+
+  <<KEYBOARD
+
+  KEYBOARD
   aliases: 
   group: 
 CMD*/
@@ -50,6 +56,7 @@ if (userStatus == "member" || userStatus == "administrator" || userStatus == "cr
 text: "*🔰 Please join all required channels to continue!*\n\n" +
         "» [Mad Tutorial](https://t.me/mad_tutor)\n" +
         "» [Mad Tutorial Store](https://t.me/madtutorialstore)\n" +
+        "» [Free Premium Accounts](https://t.me/Mad_ttuts)\n" +
         "» [Mad Tutorial Logs](https://t.me/MadTutXLogs)\n",
   parse_mode: "Markdown",
   reply_markup: {

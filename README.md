@@ -1,5 +1,5 @@
-# N0VA_R55_Bot - chat bot
-It is repository for chat bot: [@N0VA_R55_Bot](https://t.me/N0VA_R55_Bot)
+# Madtutotial_Generatorbot - chat bot
+It is repository for chat bot: [@Madtutotial_Generatorbot](https://t.me/Madtutotial_Generatorbot)
 
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.

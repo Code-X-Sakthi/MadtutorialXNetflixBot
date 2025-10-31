@@ -16,19 +16,20 @@
   group: 
 CMD*/
 
-var balance = Libs.ResourcesLib.userRes("balance");
+let balance = Libs.ResourcesLib.userRes("balance");
+
 if (balance.value() < 10) {
-  Bot.sendMessage("❌ You need *10 points* to withdraw a YouTube Premium invite.");
+  Bot.sendMessage("❌ You need 10 points to buy YouTube Premium.");
   return;
 }
 
-// correct array structure for inline keyboard
-var confirmKeyboard = [
-  [{ title: "✅ Confirm Purchase", command: "confirm_youtube_buy" }],
-  [{ title: "❌ Cancel", command: "cancel_withdraw" }]
-];
-
-Bot.sendInlineKeyboard(
-  confirmKeyboard,
-  "📺 *YouTube Premium*\n\n💰 Cost: 10 Points\n\nAre you sure you want to buy this invite?"
+Bot.sendMessage(
+  "🎬 *YouTube Premium Purchase*\n\n" +
+  "💰 Cost: 10 Points\n\n" +
+  "📧 To continue, please send your email using this command:\n\n" +
+  "`/mymail your@email.com`\n\n" +
+  "Example: `/mymail johndoe@gmail.com`\n\n" +
+  "Once sent, your activation request will be processed soon. ❤️",
+  { parse_mode: "Markdown" }
 );
+
