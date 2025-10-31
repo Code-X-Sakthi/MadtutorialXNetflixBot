@@ -4,13 +4,19 @@
   need_reply: false
   auto_retry_time: 
   folder: 
-  answer: 
-  keyboard: 
+
+  <<ANSWER
+
+  ANSWER
+
+  <<KEYBOARD
+
+  KEYBOARD
   aliases: 
   group: 
 CMD*/
 
-// Save referral ID but do not reward yet
+
 let referrer = params;
 if (referrer && referrer != user.telegramid) {
   let alreadyRef = User.getProperty("referrer_id");

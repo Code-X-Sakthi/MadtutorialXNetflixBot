@@ -26,8 +26,7 @@ Bot.sendInlineKeyboard(
   "<b>📨 You Can Exchange Your Point to Premium Accounts.\n\n" +
   "🔄 Exchange Point to ~\n----------------------------------------------\n" +
   "👉 NETFLIX [ 4 Point ]\n\n" +
-  "🔄 Exchange Point to ~\n----------------------------------------------\n" +
-  "👉 YOUTUBE INVITE LINK [ 10 Point ]\n\n" +
+  "👉 YOUTUBE ON YOUR MAIL [ 10 Point ]\n\n" +
   "----------------------------------------------\n\n" +
   "<i>📌 Select a service below 👇</i></b>"
 );
